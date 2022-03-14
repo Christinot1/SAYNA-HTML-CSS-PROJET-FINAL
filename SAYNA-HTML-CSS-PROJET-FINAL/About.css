@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+.head .row .col a{
+    color: white;
+    text-decoration: none;
+
+} 
+.head .row .col a:hover{
+    color: #98a5a5;
+}
+.head .row .col{
+    list-style-type: none; 
+    padding-top: -5%;   
+}
+
+b{
+    color: #509bd7;
+}
+h2{
+    text-align: center;
+    padding-top: 14%;
+    color: #d35649;
+}
+.contenu{
+    border: 2px solid gray;
+    padding-bottom: 10%;
+    margin-left: 3%;
+    margin-right: 3%;   
+}
+.container .style1 .row{
+    border: 2px solid white;
+    color: white;
+    margin-right: -154%;
+    margin-left: 94%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    border-left: none;
+    border-right: none;
+}
+.container .style2 .row{
+    border: 2px solid white;
+    color: white;
+    margin-left: -150%;
+    margin-right: 85%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-left: none;
+    border-right: none;
+    padding-left: 10%;
+}
+.container .style1 .row a{
+    text-decoration: none;
+    color: white;
+}
+.container .style2 .row a{
+    text-decoration: none;
+    color: white;
+}
+.map .row .col img{
+    width: 12%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    border: 2px solid white;
+    margin-left: 44%;
+    margin-top: -3%;
+    border-radius: 50%;
+}
+.if{
+    justify-content: center;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+}
+.img:hover{
+    background-color: #509bd7;
+    border-radius: 2px;
+}
+.cage {
+    padding: 4%;
+    width: 98%;
+    box-shadow: 0 0 4px 0;
+}
+
+.liste {
+    color: #5096d7;
+    font-weight: bold;
+}
+@media screen and (max-width: 900px){
+    .contact .container{
+        display: block;
+        justify-content: center;
+    }
+    
+}
+@media  screen and (max-width: 800px){
+    .section2 .container{
+        display: none;
+    }
+    .about .contact{
+        display: none
+    }
+    .input .border .input-group{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+}
